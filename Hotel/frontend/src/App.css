@@ -1,0 +1,47 @@
+.header {
+  background: #eef2ff;
+  margin-bottom: 20px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newButtonAndTopic {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.charges {
+  display: flex;
+  place-items: flex-end;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.single-row-payment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  place-items: end;
+}
+
+.newButtonAndTopicAndSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 16px;
+  margin: 26px auto;
+}
+
+.inside {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search {
+  margin-left: 10px;
+}
